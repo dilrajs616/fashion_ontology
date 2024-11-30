@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="http://example.org/fashion/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://example.org/fashion/Dell_Latitude...">
+    <rdf:type rdf:resource="http://example.org/fashion/Product"/>
+    <ns1:name>Dell Latitude...</ns1:name>
+    <ns1:price>$1133.82</ns1:price>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/fashion/Nokia_X">
+    <rdf:type rdf:resource="http://example.org/fashion/Product"/>
+    <ns1:name>Nokia X</ns1:name>
+    <ns1:price>$109.99</ns1:price>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/fashion/Acer_Extensa_1...">
+    <rdf:type rdf:resource="http://example.org/fashion/Product"/>
+    <ns1:name>Acer Extensa 1...</ns1:name>
+    <ns1:price>$439.73</ns1:price>
+    <ns1:color>black</ns1:color>
+  </rdf:Description>
+</rdf:RDF>
